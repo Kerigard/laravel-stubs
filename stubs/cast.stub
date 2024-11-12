@@ -5,7 +5,9 @@ namespace {{ namespace }};
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
-/** @implements CastsAttributes<mixed, mixed> */
+/**
+ * @implements CastsAttributes<mixed, mixed>
+ */
 class {{ class }} implements CastsAttributes
 {
     public function get(Model $model, string $key, mixed $value, array $attributes): mixed

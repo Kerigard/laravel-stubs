@@ -14,7 +14,9 @@ class {{ class }}
         //
     }
 
-    /** @return array<int, \Illuminate\Broadcasting\Channel> */
+    /**
+     * @return array<int, \Illuminate\Broadcasting\Channel>
+     */
     public function broadcastOn(): array
     {
         return [

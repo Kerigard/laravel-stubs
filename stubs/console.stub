@@ -6,10 +6,14 @@ use Illuminate\Console\Command;
 
 class {{ class }} extends Command
 {
-    /** @var string */
+    /**
+     * @var string
+     */
     protected $signature = '{{ command }}';
 
-    /** @var string */
+    /**
+     * @var string
+     */
     protected $description = 'Command description';
 
     public function handle(): void
