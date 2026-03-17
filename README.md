@@ -1,6 +1,6 @@
 # Laravel Stubs
 
-Clear stubs for Laravel 11
+Clear stubs for Laravel 13
 
 ## Manual installation
 
