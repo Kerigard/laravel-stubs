@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use Closure;
+
+class {{ class }}
+{
+    /**
+     * @param  Closure(object): void  $next
+     */
+    public function handle(object $job, Closure $next): void
+    {
+        $next($job);
+    }
+}

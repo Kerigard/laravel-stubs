@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use Closure;
+use Illuminate\Contracts\Validation\ValidationRule;
+
+class {{ class }} implements ValidationRule
+{
+    public bool $implicit = true;
+
+    public function validate(string $attribute, mixed $value, Closure $fail): void
+    {
+        //
+    }
+}
