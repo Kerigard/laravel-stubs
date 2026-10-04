@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedUserModel }};
+
+class {{ class }}
+{
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * @return array<array-key, mixed>|bool
+     */
+    public function join({{ userModel }} $user): array|bool
+    {
+        return true;
+    }
+}
